@@ -1,12 +1,17 @@
+1. Instalar Django, Django Rest Framework, SimpleJWT y drf_spectacular:
 
-1. Ejecutar las migraciones y crear un superusuario:
+```bash
+pip install django djangorestframework django-rest-framework-simplejwt drf-spectacular
+```
+
+2. Ejecutar las migraciones y crear un superusuario:
 
 ```bash
 python manage.py migrate
 python manage.py createsuperuser
 ```
 
-2. Ejecutar el servidor:
+3. Ejecutar el servidor:
 
 ```bash
 python manage.py runserver
